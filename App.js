@@ -86,6 +86,7 @@ export default function App() {
 									left={<TextInput.Icon icon="email-outline" color="#A4A4A4" rippleColor="transparent" />}
 									placeholder="yourname@gmail.com"
 									placeholderTextColor="#A4A4A4"
+									autoCapitalize={false}
 									theme={{
 										colors: { text: 'white' },
 										fonts: { regular: { fontFamily: 'Poppins-Medium' } },
