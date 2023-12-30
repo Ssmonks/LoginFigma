@@ -300,6 +300,9 @@ const styles = StyleSheet.create({
 		backgroundColor: '#151316',
 	},
 	backgroundContentImage: {
+		flex: 1,
+		flexDirection: 'column',
+		position: 'absolute',
 		width: '100%',
 		height: '100%',
 	},
@@ -312,10 +315,10 @@ const styles = StyleSheet.create({
 		height: '100%',
 	},
 	puppetContainer: {
-		marginTop: '-90%',
+		marginTop: '-10%',
 		alignSelf: 'flex-end',
 		resizeMode: 'contain',
-		width: 250,
+		width: '65%',
 	},
 	contentContainer: {
 		flex: 1,
